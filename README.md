@@ -125,7 +125,7 @@ git commit -m "Added a new file .gitignore"
 ```
 
 
-## removed two blank space 
+## Removed two blank space 
 ```bash
 git add .
 git commit -m "removed two black space from data_dump.py file"
