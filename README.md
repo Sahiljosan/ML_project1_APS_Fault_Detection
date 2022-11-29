@@ -110,7 +110,14 @@ git push origin main -f
 After this all file from vs code are uploaded to github repositiory
 
 
+
 ## Add new file .gitignore
 - git add .
 - git commit -m "Added a new file .gitignore"
+
+
+
+## removed two blank space 
+- git add .
+- git commit -m "removed two black space from data_dump.py file"
 
