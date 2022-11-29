@@ -92,3 +92,25 @@ git add.
 git status
 ```
 
+### Configure Email id
+```bash
+git config --global user.email "you@example.com"
+```
+
+### Configure user name
+```bash
+git config --global user.name "Your Name"
+```
+
+### Create new commit
+```bash
+git commit -m "This is our first version code"
+```
+
+### Push the commit in the local branch forcefull
+```bash
+git push origin main -f
+
+After this all file from vs code are uploaded to github repositiory
+```
+
