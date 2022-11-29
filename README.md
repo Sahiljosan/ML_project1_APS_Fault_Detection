@@ -92,25 +92,25 @@ git add.
 git status
 ```
 
-### Configure Email id
-```bash
+## Configure Email id
 git config --global user.email "you@example.com"
-```
 
-### Configure user name
-```bash
+
+## Configure user name
 git config --global user.name "Your Name"
-```
 
-### Create new commit
-```bash
+
+## Create new commit
 git commit -m "This is our first version code"
-```
 
-### Push the commit in the local branch forcefull
-```bash
+
+## Push the commit in the local branch forcefull
 git push origin main -f
 
 After this all file from vs code are uploaded to github repositiory
-```
+
+
+## Add new file .gitignore
+- git add .
+- git commit -m "Added a new file .gitignore"
 
