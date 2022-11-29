@@ -129,4 +129,5 @@ git commit -m "Added a new file .gitignore"
 ```bash
 git add .
 git commit -m "removed two black space from data_dump.py file"
+git push origin main
 ```
