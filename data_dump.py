@@ -7,6 +7,8 @@ client = pymongo.MongoClient("mongodb://localhost:27017/neurolabDB")
 data_file_path = "/config/workspace/aps_failure_training_set1.csv"
 database_name = "APS"
 collection_name = "sensor_training_dataset"
+
+
 if __name__ == "__main__":
     df = pd.read_csv(data_file_path)
     print(f"Rows and Columns: {df.shape}")
@@ -20,4 +22,4 @@ if __name__ == "__main__":
 
     # insert converted json record to mongoDB
     client[database_name][collection_name].insert_many(json_record)
-    print("sahiljosan")
+    print("sahiljosan edited")
