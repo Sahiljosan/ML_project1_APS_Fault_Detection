@@ -6,10 +6,13 @@ requirement_file_name = "requirements.txt"
 hypen_e_dot = "-e ."
 
 ## This function will provide the list of libraries name that are required for this project
-def get_requirements()->List(str):
+def get_requirements()->List(str): ## List(str) tell the viewer that this function 
+                                # is going to generate list of str, it is just a writen type
+
     with open(requirement_file_name) as requirement_file:
         requirement_list = requirement_file.readlines()
     requirement_list = [requirement_name.replace("\n","") for requirement_name in requirement_list]
+
     if hypen_e_dot in requirement_list:
         requirement_list.remove(hypen_e_dot)
     return requirement_list
@@ -21,6 +24,6 @@ setup(
     author= "ineuron",
     author_email = "sahiljosan50@gmail.com",
     packages= find_packages(),
-    install_requires=get_requirements()
+    install_requires=get_requirements(),
 )
 
