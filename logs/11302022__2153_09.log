@@ -1,0 +1,2 @@
+[ 2022-11-30 21:53:09,514 ] 8  root - INFO - Starting the test_logger_and_exception
+[ 2022-11-30 21:53:09,514 ] 13  root - DEBUG - Stopping the test_logger_and_exception
